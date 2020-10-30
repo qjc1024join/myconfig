@@ -15,10 +15,4 @@ server:
 spring:
   application:
     name: eureka-get
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config-server
-      profile: dev
-      label: master
+
